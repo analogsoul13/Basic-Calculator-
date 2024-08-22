@@ -16,28 +16,28 @@
             <input type="text" readonly id="screen">
             <br>
             <!-- Buttons row 1 -->
-            <input class="button number" type="button" value="7">
-            <input class="button number" type="button" value="8">
-            <input class="button number" type="button" value="9">
-            <input class="button operator" type="button" value="/">
+            <button onclick="numClicked(7)" type="button">7</button>
+            <button onclick="numClicked(8)" type="button">8</button>
+            <button onclick="numClicked(8)" type="button">9</button>
+            <button onclick="opClicked('/')" class="button operator" type="button">/</button>
             <br>
             <!-- Buttons row 2 -->
-            <input class="button number" type="button" value="4">
-            <input class="button number" type="button" value="5">
-            <input class="button number" type="button" value="6">
-            <input class="button operator" type="button" value="*">
+            <button onclick="numClicked(4)" type="button">4</button>
+            <button onclick="numClicked(5)" type="button">5</button>
+            <button onclick="numClicked(6)" type="button">6</button>
+            <button onclick="opClicked('*')" class="button operator" type="button">*</button>
             <br>
             <!-- Buttons row 2 -->
-            <input class="button number" type="button" value="1">
-            <input class="button number" type="button" value="2">
-            <input class="button number" type="button" value="3">
-            <input class="button operator" type="button" value="+">
+            <button onclick="numClicked(1)" type="button">1</button>
+            <button onclick="numClicked(2)" type="button">2</button>
+            <button onclick="numClicked(3)" type="button">3</button>
+            <button onclick="opClicked('+')" class="button operator" type="button">+</button>
             <br>
             <!-- Buttons row 3 -->
-            <input class="button clear" type="button" value="C">
-            <input class="button number" type="button" value="0">
-            <input class="button result" type="button" value="=">
-            <input class="button operator" type="button" value="-">
+            <button onclick="clearResult()" class="button clear" type="button">C</button>
+            <button onclick="numClicked(0)" type="button">0</button>
+            <button onclick="calculate()" class="button result" type="button">=</button>
+            <button onclick="opClicked('-')" class="button operator" type="button">-</button>
         </form>
     </div>
 
