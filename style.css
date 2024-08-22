@@ -19,12 +19,26 @@ h1{
 
 }
 
+@media only screen and (max-width: 800px) {
+    .container {
+        width: 300px;
+        height: 450px;
+    }
+}
+
+
 p{
     color: white;
     font-size: 1.5rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-left: 15px;
     text-transform: uppercase;
+}
+
+@media only screen and (max-width: 800px) {
+    p {
+        font-size: 1rem;
+    }
 }
 
 input{
@@ -39,6 +53,13 @@ input{
     
 }
 
+@media screen and (max-width: 800px) {
+    input {
+      width: 260px;
+      font-size: 2rem;
+    }
+  }
+
 button{
     background-color: #3d3d3d;
     color: white;
@@ -49,6 +70,15 @@ button{
     border-radius: 15px;
     border: none;
 }
+
+@media screen and (max-width: 800px) {
+    button {
+      width: 55px;
+      height: 55px;
+      margin: 5px;
+      font-size: 20px;
+    }
+  }
 
 button:hover{
     border: 2px solid #d1d1d1;
